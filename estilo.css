@@ -1,0 +1,80 @@
+.cabecalho{ 
+  background-image: url("imagens/bannergta.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 280px;
+  height: 253px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+
+}
+.texto{
+    color:aliceblue;
+}
+body{
+    text-align: center;
+    margin: 0;
+    background-color: black;
+}
+.rodape{
+    text-align: center;
+    margin: 0;
+    background-image: url("imagens/rodape.png"); 
+    background-position-x: center;
+    background-position-y: center;
+    width: 369px;
+    height: 99px;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.elenco{
+    column-count: 2;
+    margin-right: 19px;
+    margin-left: 19px;
+    margin-top: 0;
+}
+.funcionamento{
+    font-size: 18px;
+    font-size: 18px;
+    text-align: justify;
+    width: 300px;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    color: rgb(211, 207, 207);
+}
+h1{
+    color: #650FBB ;
+}
+.fotos{
+    
+    margin-right: 19px;
+    margin-left: 19px;
+    margin-top: 0;
+    width:150px;
+    height: 100px;
+}
+.fotos2{
+    column-count: 2; 
+    width: 369px;
+  height: 400px;
+}
+.videos{
+  
+    width: 160px;
+    height: 90px;
+    margin-right:0px;
+    margin-left:0px;
+    margin-top: 0;
+    column-count: 2;
+}
+.home{
+    text-align: right;
+}

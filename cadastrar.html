@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Notícias</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+    </header>
+    <hr>
+    <h1> Cadastro de Notícias</h1>
+    <div class="home">
+        <a href="menu.html"><img src="imagens/home.png"></a>
+        </div>
+    <hr>
+    <div id="msgSucesso"></div> 
+    <div class="formulario">
+       <p> <label class="texto" for="nome">Título:</label> 
+       <input type="text" id="titulo"  size="30" maxlenght="35" placeholder="Digite o título"/> </p>
+    
+    
+        <p> <label class="texto" for="qtd">Data:</label> 
+        <input type="text" id="data"  size="30" maxlenght="10" placeholder="Digite a Data"/> </p>
+            
+    
+        <p> <label class="texto" for="alimentacao">Comentario:</label> 
+        <input type="text" id="comentario"  size="30" maxlenght="100" placeholder="Digite seu Comentario"/> </p>
+               
+</div>
+    <br>
+    <hr>
+    <input onclick='cadastrar()' type="image" src="imagens/cadastrar.png">
+    <hr>
+    <script src="cad.js"></script>
+
+    <div class="rodape">
+    </div>          
+    
+    
+</body>
+</html>
